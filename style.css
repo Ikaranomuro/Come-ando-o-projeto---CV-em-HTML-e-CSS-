@@ -148,3 +148,24 @@ header .wrapper .conteudoTexto{
   margin-right: 1rem;
   margin-top: 2rem;
 }
+
+/*=======================RESPONSIVE=======================*/
+@media (max-width: 600px){
+    body{
+        width: min(35.5rem, 100%);
+    }
+    
+    /*=======================WRAPPER=======================*/
+    .wrapper{
+        width: min(35.5rem, 100%);
+        padding-left: 2rem;
+    }
+
+    /*=======================HR=======================*/
+    hr{
+    width: min(30rem, 100%);
+  
+    }
+   
+  
+}
